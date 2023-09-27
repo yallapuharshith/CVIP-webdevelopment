@@ -115,7 +115,15 @@ select{
     border: 0;
     outline: 0;
     margin-left:20px;
-    color: #fff;
+    color:white;
+}
+.email-signup value{
+    flex: 1;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    margin-left:20px;
+    color:#fff;
 }
 .email-signup button{
     background: #db0001;
@@ -192,7 +200,7 @@ select{
 }
 .img-col1 >video{
     position: absolute;
-    left:120px;
+    left:140px;
     top: 3.2%;
     z-index: -1;
     width:55%;
@@ -349,5 +357,22 @@ input[type="radio"]{
     }
     label::after{
         font-size: 22px;
+    }
+
+    .img-col1 >video{
+        position: absolute;
+        left:38px;
+        top: 3.2%;
+        z-index: -1;
+        width:55%;
+        height: 60%;
+    }
+    .img-col >video{
+        position: absolute;
+        left: 50px;
+        top: 13%;
+        z-index: -1;
+        width:70%;
+        height: 70%;
     }
 }
